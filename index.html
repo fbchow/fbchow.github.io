@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 
+<!-- site metadata -->
 <head>
 	<title>Fanny B</title>
 	
@@ -13,35 +14,55 @@
 </head>
 
 
-<header>
+<!-- <header>
   <h1>Fanny B</h1>
-  <!--<button id = "toggle"</button>-->
-</header>
+  <button id = "toggle"</button>
+</header> -->
 
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script> -->
+
 
 
 <body>
+  <!-- <div id='content'> -->
+    <!-- <div id='blurb'> -->
+		<div id = 'name'>
+			Fanny B.C. 
+		</div>
 
 
-	<script src="myScript.js"></script>
+    	<p id='links'>
+          <a href="resume.pdf" title='PDF'>test/resum&eacute;</a> |
+          <a href="http://www.linkedin.com/in/fannychow" title='Linkedin'>LinkedIn</a>
+    	</p>
+	<!-- </div> -->
+<!-- </div> -->
+
+
+
+
+	<!-- testing angular js interactivity -->
+	<!-- <script src="myScript.js"></script> -->
 	
-	<div ng-app="myApp" ng-controller="myCtrl">
-	<p>Name: <input type ="text" ng-model="name"></p>
-	<button ng-click="name= ''"> Enter</button>
+	<!-- <div ng-app="myApp" ng-controller="myCtrl"> -->
+	<!-- <p>Name: <input type ="text" ng-model="name"></p> -->
+	<!-- <button ng-click="name= ''"> Enter</button> -->
 	<!--<p ng-bind="name"></p>-->
 	<!--shortens the syntax w/ angular-->
 	<!--<p>{{name}}</p>-->
 	<!--if someone types into "name, THEN show text-->
-	<p ng-if="name">{{"thanks for writing your name, "+ name}}</p>	<!--if else statement-->
-	</div>
+	 <!-- <p ng-if="name">{{"thanks for writing your name, "+ name}}</p>	 -->
+	<!--if else statement
+	 -->
+	<!-- </div> -->
 
-	<script>
-	var app = angular.module('myApp', []);
-	app.controller('myCtrl', function($scope){
-		$scope.name = "Required, lady!";
-	});
-	</script>
+	<!-- // <script> -->
+	<!-- // var app = angular.module('myApp', []);
+	// app.controller('myCtrl', function($scope){
+	// 	$scope.name = "Required, lady!";
+	// });
+	// </script> -->
 
 </body>
+
 </html>

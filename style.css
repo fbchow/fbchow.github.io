@@ -1,9 +1,10 @@
-h1 {
+/*first version of name heador*/
+/*h1 {
   color: #b7d1c4;
   font-size: 300px;
   text-align: center;
   text-decoration: underline;
-}
+}*/
 
 html, body {
 	color: #46404c;
@@ -42,7 +43,7 @@ p {
 }
 
 #name {
-  font-size: 32px;
+  font-size: 50px;
   font-family: "Dawning of a New Day",  Arial, sans-serif;
   margin-bottom: 30px;
 }
