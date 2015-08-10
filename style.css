@@ -6,10 +6,10 @@
   text-decoration: underline;
 }*/
 
-html, body {
+/*html, body {
 	color: #46404c;
   height: 100%; /*sticky footer*/
-	font-family: 'Lato', Helvetica, Arial, sans-serif;
+/*	font-family: 'Lato', Helvetica, Arial, sans-serif;
 	text-align: left;
   margin: 0;
   padding: 0;
@@ -31,22 +31,88 @@ p {
   p {
     font-size: 14px;
   }
-}
-
+}*/
+/*
 #content {
   background-color: #e6e7e9;
-  /*background-image: url(img5mirror-cropped.jpg);*/
+  background-image: url(pic_hack.jpg);
   background-size: cover;
   opacity: 0;
   min-height: 100%;
   height: auto;
+}*/
+
+/*fixed navbar overlays other content*/
+body{
+  padding-top: 70px;
 }
 
+/*style navbar*/
+.navbar-fixed-top{
+  display: inline;
+}
+
+
+.jumbotron{
+  /*font-family: 'Shift', sans-serif;*/
+  font-family:'Shift', sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  /*margin: 100px;*/
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-image: url('https://goo.gl/04j7Nn');*/
+  background-image: url('background1.jpg');
+  opacity: 1;
+  /*border: 3px solid #ffffff;*/
+  
+
+}
+
+/*style my name*/
+.jumbotron h1{
+  font-family:'Shift', sans-serif;
+  color: #fff;
+  /*FIXME: placement of name*/
+  position: relative;
+/*  top: 91px;
+  left: 55px;*/
+}
+
+/*style my description*/
+.jumbotron p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*style the links*/
+/*.navbar-fixed-top container{
+  /*color: #5a5a5a;*/
+/*  color:#00b0ff;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 50px;
+  padding-bottom: 14px;
+  padding-left:10px;
+  padding-right:10px;
+  text-transform: uppercase;
+}
+*/
+
+.nav li{
+  display: inline;
+}
+
+/*
 #name {
   font-size: 50px;
   font-family: "Dawning of a New Day",  Arial, sans-serif;
   margin-bottom: 30px;
 }
+
 
 @media (max-width: 480px) {
   #name {
